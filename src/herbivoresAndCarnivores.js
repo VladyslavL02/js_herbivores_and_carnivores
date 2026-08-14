@@ -35,16 +35,6 @@ class Carnivore extends Animal {
   }
 }
 
-const tiger = new Carnivore('Tiger');
-const zebra = new Herbivore('Zebra');
-
-tiger.bite(zebra);
-tiger.bite(zebra);
-
-console.log(Animal.alive);
-
-// console.log(Animal.alive());
-
 module.exports = {
   Animal,
   Herbivore,
